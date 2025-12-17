@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.landing {
+    background-image: url('./images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+.logo h1 {
+    font-size: 48px;
+    margin: 0 0 0 20px;
+    padding: 30px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+}
+.landing .links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 40px 15px;
+}
+.landing .links ul li {
+    margin: 0 20px;
+}
+.landing .links ul li a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    transition: color 0.4s ease;
+}
+.landing .links ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 30px;
+}
+.cards .card {
+    background-color: #111;
+    text-align: center;
+    border-radius: 5px;
+}
+.cards .card img {
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.cards .card h2 {
+    color: rgb(255, 0, 0);
+}
+.cards .card p {
+    color: #ffffffa1;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 0 10px 15px 10px;
+}
+.cards .card button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+.cards .card button:hover {
+    background-color: rgb(200, 0, 0);
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #888;
+    font-size: 14px;
+}
+footer h4 {
+
+    color: rgb(255, 0, 0);
+
+}
+footer span {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
